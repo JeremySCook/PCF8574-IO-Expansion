@@ -4,7 +4,6 @@
 #include "Arduino.h"
 #include "PCF8574.h"
 
-// Set i2c address
 PCF8574 pcf8574(0x38); //change to your I2C address
 
 void setup()
